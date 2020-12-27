@@ -9,14 +9,13 @@ const Header = () => {
             <div className="header__logo">
                 <img width="38" src={logoSvg} alt="Pizza logo"/>
                 <div>
-                    <Button outline>Кнопка1</Button>
-                    <Button test>КНопка2</Button>
                     <h1>React Pizza</h1>
                     <p>самая вкусная пицца во вселенной</p>
                 </div>
             </div>
             <div className="header__cart">
-                <a href="/cart.html" className="button button--cart">
+                <a href="/cart.html" className="button button--cart"> </a>
+                <Button className='button--cart'>
                     <span>520 ₽</span>
                     <div className="button__delimiter"></div>
                     <svg
@@ -48,8 +47,8 @@ const Header = () => {
                             strokeLinejoin="round"
                         />
                     </svg>
-                    <span>3</span>
-                </a>
+                    <span>3</span> </Button>
+
             </div>
         </div>
     </div>
