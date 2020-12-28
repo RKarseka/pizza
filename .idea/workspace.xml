@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2e90e55-b865-46ae-8e1d-b18727bfa4a0" name="Default Changelist" comment=" 02">
-      <change afterPath="$PROJECT_DIR$/src/comp/Body/Categories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comp/index.js" afterDir="false" />
+    <list default="true" id="a2e90e55-b865-46ae-8e1d-b18727bfa4a0" name="Default Changelist" comment=" 03">
+      <change afterPath="$PROJECT_DIR$/src/comp/Pages/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comp/Pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comp/Pages/Home/Sortpoup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comp/Header/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Header/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp/Body/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home/Categories.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comp/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,8 @@
       <recent name="C:\Users\ier\OneDrive\work\react\pizza" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ier\OneDrive\work\react\pizza\src\comp\Pages" />
+      <recent name="C:\Users\ier\OneDrive\work\react\pizza\src\comp\Body" />
       <recent name="C:\Users\ier\OneDrive\work\react\pizza\src\comp\Header" />
       <recent name="C:\Users\ier\OneDrive\work\react\pizza\src" />
     </key>
@@ -75,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608996652103</updated>
       <workItem from="1608996653200" duration="5199000" />
-      <workItem from="1609069972462" duration="17279000" />
+      <workItem from="1609069972462" duration="17312000" />
+      <workItem from="1609155894050" duration="8368000" />
     </task>
     <task id="LOCAL-00001" summary=" 00">
       <created>1608997114797</created>
@@ -91,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609094446522</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" 03">
+      <created>1609110473639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609110473639</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +128,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=" 00" />
     <MESSAGE value=" 02" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 02" />
+    <MESSAGE value=" 03" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 03" />
   </component>
 </project>
