@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2e90e55-b865-46ae-8e1d-b18727bfa4a0" name="Default Changelist" comment=" 03">
-      <change afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comp/Pages/Home/PizzaBlock.jsx" afterDir="false" />
+    <list default="true" id="a2e90e55-b865-46ae-8e1d-b18727bfa4a0" name="Default Changelist" comment=" 05">
+      <change afterPath="$PROJECT_DIR$/src/comp/Pages/Home/PizzaBlock/LoadingBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/cartAC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/filterAC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/pizzasAC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp/Pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Cart/Cart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comp/Pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp/Pages/Home/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home/Categories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp/Pages/Home/PizzaBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home/PizzaBlock/PizzaBlock(index).jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp/Pages/Home/Sortpoup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home/Sortpoup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -18,8 +30,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mCTcS4pUXMzmN723Hti4QdDKms" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,13 +79,14 @@
       <recent name="C:\Users\ier\OneDrive\work\react\pizza" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ier\OneDrive\work\react\pizza\src\comp\Pages\Cart" />
+      <recent name="C:\Users\ier\OneDrive\work\react\pizza\src\comp\Pages\Home\PizzaBlock" />
       <recent name="C:\Users\ier\OneDrive\work\react\pizza\src\comp\Pages" />
       <recent name="C:\Users\ier\OneDrive\work\react\pizza\src\comp\Body" />
       <recent name="C:\Users\ier\OneDrive\work\react\pizza\src\comp\Header" />
-      <recent name="C:\Users\ier\OneDrive\work\react\pizza\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.server">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -72,6 +100,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="server" type="js.build_tools.npm" singleton="false" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.server" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,7 +128,12 @@
       <workItem from="1609069972462" duration="17312000" />
       <workItem from="1609155894050" duration="8368000" />
       <workItem from="1609193429843" duration="9965000" />
-      <workItem from="1609273557006" duration="5289000" />
+      <workItem from="1609273557006" duration="5949000" />
+      <workItem from="1609498014716" duration="6401000" />
+      <workItem from="1609533801366" duration="5393000" />
+      <workItem from="1609547408569" duration="3337000" />
+      <workItem from="1609584968847" duration="21644000" />
+      <workItem from="1609674087349" duration="14973000" />
     </task>
     <task id="LOCAL-00001" summary=" 00">
       <created>1608997114797</created>
@@ -108,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609110473639</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" 05">
+      <created>1609280124345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609280124345</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +174,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -131,6 +198,7 @@
     <MESSAGE value=" 00" />
     <MESSAGE value=" 02" />
     <MESSAGE value=" 03" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 03" />
+    <MESSAGE value=" 05" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 05" />
   </component>
 </project>

@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import PropTypes from "prop-types";
 
-const PizzaBlock = ({name, imageUrl, price, types, sizes}) => {
+const PizzaBlockIndex = ({name, imageUrl, price, types, sizes, rating}) => {
     const availableTypes = ['тонкое', 'традиционное']
     const availableSizes = [26, 30, 40];
     const [activeType, setActiveType] = React.useState(types[0]);
@@ -19,12 +19,14 @@ const PizzaBlock = ({name, imageUrl, price, types, sizes}) => {
 
     return (
         <div className="pizza-block">
+            <h4 className="pizza-block__title">{rating} {Array(Math.trunc(rating/3)).fill("★")}</h4>
             <img
                 className="pizza-block__image"
                 src={imageUrl}
                 alt="Pizza"
             />
             <h4 className="pizza-block__title">{name}</h4>
+
             <div className="pizza-block__selector">
                 <ul>
                     {availableTypes.map((type, index) => (
@@ -72,19 +74,18 @@ const PizzaBlock = ({name, imageUrl, price, types, sizes}) => {
     );
 };
 
-PizzaBlock.propTypes = {
+PizzaBlockIndex.propTypes = {
     name: PropTypes.string.isRequired,
     imageURL: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     types: PropTypes.arrayOf(PropTypes.number),
-    sizes: PropTypes.arrayOf(PropTypes.number)
-
+    sizes: PropTypes.arrayOf(PropTypes.number),
 }
-PizzaBlock.defaultProps = {
+PizzaBlockIndex.defaultProps = {
     name: '---',
     price: 0,
     types: [],
     sizes: [],
 }
 
-export default PizzaBlock;
+export default PizzaBlockIndex;
