@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2e90e55-b865-46ae-8e1d-b18727bfa4a0" name="Default Changelist" comment=" 05">
-      <change afterPath="$PROJECT_DIR$/src/comp/Pages/Home/PizzaBlock/LoadingBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/cartAC.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/filterAC.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/pizzasAC.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+    <list default="true" id="a2e90e55-b865-46ae-8e1d-b18727bfa4a0" name="Default Changelist" comment=" 08">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comp/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comp/Pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp/Header/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Header/Button/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comp/Pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comp/Pages/Home/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home/Categories.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comp/Pages/Home/PizzaBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home/PizzaBlock/PizzaBlock(index).jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comp/Pages/Home/Sortpoup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home/Sortpoup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp/Pages/Home/PizzaBlock/PizzaBlock(index).jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Pages/Home/PizzaBlock/PizzaBlock(index).jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/cartAC.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/cartAC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +48,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -133,7 +118,17 @@
       <workItem from="1609533801366" duration="5393000" />
       <workItem from="1609547408569" duration="3337000" />
       <workItem from="1609584968847" duration="21644000" />
-      <workItem from="1609674087349" duration="14973000" />
+      <workItem from="1609674087349" duration="18953000" />
+      <workItem from="1609712063682" duration="2258000" />
+      <workItem from="1609757652940" duration="629000" />
+      <workItem from="1610280735775" duration="1395000" />
+      <workItem from="1610433658163" duration="2080000" />
+      <workItem from="1612632385733" duration="131000" />
+      <workItem from="1612632552586" duration="801000" />
+      <workItem from="1612744066607" duration="29000" />
+      <workItem from="1612757241200" duration="626000" />
+      <workItem from="1612976198302" duration="1655000" />
+      <workItem from="1613016904261" duration="5495000" />
     </task>
     <task id="LOCAL-00001" summary=" 00">
       <created>1608997114797</created>
@@ -163,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609280124345</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" 08">
+      <created>1609706456279</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609706456279</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +201,33 @@
     <MESSAGE value=" 02" />
     <MESSAGE value=" 03" />
     <MESSAGE value=" 05" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 05" />
+    <MESSAGE value=" 08" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 08" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2094" y="961" key="#Notifications" timestamp="1612976677251">
+      <screen x="1440" y="669" width="2048" height="1112" />
+    </state>
+    <state x="2094" y="961" key="#Notifications/0.0.1152.2008/4000.1090.1536.824/1440.669.2048.1112@1440.669.2048.1112" timestamp="1612976677251" />
+    <state width="2015" height="225" key="GridCell.Tab.0.bottom" timestamp="1613022665318">
+      <screen x="1440" y="669" width="2048" height="1112" />
+    </state>
+    <state width="2015" height="225" key="GridCell.Tab.0.bottom/0.0.1152.2008/4000.1090.1536.824/1440.669.2048.1112@1440.669.2048.1112" timestamp="1613022665318" />
+    <state width="2015" height="225" key="GridCell.Tab.0.center" timestamp="1613022665318">
+      <screen x="1440" y="669" width="2048" height="1112" />
+    </state>
+    <state width="2015" height="225" key="GridCell.Tab.0.center/0.0.1152.2008/4000.1090.1536.824/1440.669.2048.1112@1440.669.2048.1112" timestamp="1613022665318" />
+    <state width="2015" height="225" key="GridCell.Tab.0.left" timestamp="1613022665318">
+      <screen x="1440" y="669" width="2048" height="1112" />
+    </state>
+    <state width="2015" height="225" key="GridCell.Tab.0.left/0.0.1152.2008/4000.1090.1536.824/1440.669.2048.1112@1440.669.2048.1112" timestamp="1613022665318" />
+    <state width="2015" height="225" key="GridCell.Tab.0.right" timestamp="1613022665318">
+      <screen x="1440" y="669" width="2048" height="1112" />
+    </state>
+    <state width="2015" height="225" key="GridCell.Tab.0.right/0.0.1152.2008/4000.1090.1536.824/1440.669.2048.1112@1440.669.2048.1112" timestamp="1613022665318" />
+    <state x="1957" y="669" width="1009" height="1470" key="search.everywhere.popup" timestamp="1612977674305">
+      <screen x="1440" y="669" width="2048" height="1112" />
+    </state>
+    <state x="1957" y="669" width="1009" height="1470" key="search.everywhere.popup/0.0.1152.2008/4000.1090.1536.824/1440.669.2048.1112@1440.669.2048.1112" timestamp="1612977674305" />
   </component>
 </project>

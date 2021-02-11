@@ -17,7 +17,9 @@ const Button = ({onClick, className, outline, children}) => {
         <button
             onClick={onClick}
             className={classNames(
-                'button', className, {'button--outline': outline}
+                'button',
+                className,
+                {'button--outline': outline}
             )}>{children}</button>)
 }
 
